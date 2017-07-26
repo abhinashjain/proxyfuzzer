@@ -1,0 +1,445 @@
+{
+    "target_response": {
+        "zonetransfer": {
+            "enabled": false,
+            "list": []
+        },
+        "target": "ycombinator.com",
+        "hostname": "ycombinator.com",
+        "alias": [],
+        "wildcard": {
+            "detected": {},
+            "test_target": "qtuizchfe.ycombinator.com",
+            "enabled": false,
+            "http_response": {}
+        },
+        "ipaddress": [
+            "54.230.190.46",
+            "54.230.190.57",
+            "54.230.190.28",
+            "54.230.190.136",
+            "54.230.190.174",
+            "54.230.190.92",
+            "54.230.190.118",
+            "54.230.190.222"
+        ],
+        "response_time": "0.185351848602",
+        "http_response": {
+            "status": {
+                "reason": "Moved Permanently",
+                "code": 301
+            },
+            "http_headers": {
+                "content-length": "0",
+                "via": "1.1 6fb63da6ad4f4036fcde72f0e5a2e175.cloudfront.net (CloudFront)",
+                "x-cache": "Hit from cloudfront",
+                "age": "61690",
+                "server": "AmazonS3",
+                "connection": "keep-alive",
+                "x-amz-cf-id": "THK8rlhNHTFD4htuWPbLfse2XoWA8Xs509yVyThjPzAbCCL9rFdLuA==",
+                "location": "http://www.ycombinator.com/",
+                "date": "Sun, 25 Jun 2017 17:48:41 GMT"
+            }
+        }
+    },
+    "found": {
+        "subdomain": [
+            "news.ycombinator.com.cdn.cloudflare.net",
+            "www.ycombinator.com",
+            "old.ycombinator.com",
+            "docs.ycombinator.com",
+            "cdn.ycombinator.com",
+            "api.ycombinator.com.cdn.cloudflare.net",
+            "calendar.ycombinator.com",
+            "api.ycombinator.com",
+            "groups.ycombinator.com",
+            "news.ycombinator.com",
+            "blog.ycombinator.com",
+            "ghs.googlehosted.com",
+            "mail.ycombinator.com"
+        ],
+        "ipaddress": [
+            "54.230.190.226",
+            "198.20.90.154",
+            "54.230.190.222",
+            "54.230.190.206",
+            "104.20.44.44",
+            "54.230.190.146",
+            "54.230.190.174",
+            "54.230.190.194",
+            "54.230.190.57",
+            "54.230.190.251",
+            "172.217.26.211",
+            "104.20.43.44",
+            "54.230.190.92",
+            "54.230.190.234",
+            "54.230.190.118",
+            "54.230.190.94",
+            "54.230.190.115",
+            "54.230.190.136",
+            "54.230.190.152",
+            "54.230.190.172",
+            "54.230.190.155",
+            "54.230.190.29",
+            "54.230.190.28",
+            "54.230.190.183",
+            "54.230.190.46",
+            "54.230.190.242",
+            "54.230.190.249"
+        ],
+        "csv": [
+            "104.20.44.44,301,alias,api.ycombinator.com",
+            "104.20.44.44,301,host,api.ycombinator.com.cdn.cloudflare.net",
+            "104.20.43.44,301,host,api.ycombinator.com.cdn.cloudflare.net",
+            "198.20.90.154,200,host,blog.ycombinator.com",
+            "172.217.26.211,302,alias,calendar.ycombinator.com",
+            "172.217.26.211,302,host,ghs.googlehosted.com",
+            "54.230.190.206,200,host,cdn.ycombinator.com",
+            "54.230.190.249,200,host,cdn.ycombinator.com",
+            "54.230.190.29,200,host,cdn.ycombinator.com",
+            "54.230.190.234,200,host,cdn.ycombinator.com",
+            "54.230.190.194,200,host,cdn.ycombinator.com",
+            "54.230.190.172,200,host,cdn.ycombinator.com",
+            "54.230.190.152,200,host,cdn.ycombinator.com",
+            "54.230.190.115,200,host,cdn.ycombinator.com",
+            "172.217.26.211,302,alias,docs.ycombinator.com",
+            "172.217.26.211,302,host,ghs.googlehosted.com",
+            "172.217.26.211,302,alias,groups.ycombinator.com",
+            "172.217.26.211,302,host,ghs.googlehosted.com",
+            "172.217.26.211,302,alias,mail.ycombinator.com",
+            "172.217.26.211,302,host,ghs.googlehosted.com",
+            "104.20.43.44,301,alias,news.ycombinator.com",
+            "104.20.43.44,301,host,news.ycombinator.com.cdn.cloudflare.net",
+            "104.20.44.44,301,host,news.ycombinator.com.cdn.cloudflare.net",
+            "54.230.190.155,200,host,old.ycombinator.com",
+            "54.230.190.183,200,host,old.ycombinator.com",
+            "54.230.190.226,200,host,old.ycombinator.com",
+            "54.230.190.251,200,host,old.ycombinator.com",
+            "54.230.190.242,200,host,old.ycombinator.com",
+            "54.230.190.94,200,host,old.ycombinator.com",
+            "54.230.190.29,200,host,old.ycombinator.com",
+            "54.230.190.146,200,host,old.ycombinator.com",
+            "54.230.190.249,200,host,www.ycombinator.com",
+            "54.230.190.234,200,host,www.ycombinator.com",
+            "54.230.190.206,200,host,www.ycombinator.com",
+            "54.230.190.194,200,host,www.ycombinator.com",
+            "54.230.190.152,200,host,www.ycombinator.com",
+            "54.230.190.29,200,host,www.ycombinator.com",
+            "54.230.190.115,200,host,www.ycombinator.com",
+            "54.230.190.172,200,host,www.ycombinator.com"
+        ]
+    },
+    "subdomain_response": [
+        {
+            "target": "api.ycombinator.com",
+            "hostname": "api.ycombinator.com.cdn.cloudflare.net",
+            "alias": [
+                "api.ycombinator.com"
+            ],
+            "ipaddress": [
+                "104.20.44.44",
+                "104.20.43.44"
+            ],
+            "response_time": "1.52231812477",
+            "http_response": {
+                "status": {
+                    "reason": "Conflict",
+                    "code": 409
+                },
+                "http_headers": {
+                    "set-cookie": "__cfduid=d39da96d1a1af487bed50e0c61c104ae21498474616; expires=Tue, 26-Jun-18 10:56:56 GMT; path=/; domain=.cloudflare.net; HttpOnly",
+                    "expires": "Mon, 26 Jun 2017 10:57:02 GMT",
+                    "server": "cloudflare-nginx",
+                    "connection": "keep-alive",
+                    "cache-control": "max-age=6",
+                    "date": "Mon, 26 Jun 2017 10:56:56 GMT",
+                    "x-frame-options": "SAMEORIGIN",
+                    "content-type": "text/html; charset=UTF-8",
+                    "cf-ray": "374fa49240ed2ee7-DEL"
+                }
+            }
+        },
+        {
+            "target": "blog.ycombinator.com",
+            "hostname": "blog.ycombinator.com",
+            "alias": [],
+            "ipaddress": [
+                "198.20.90.154"
+            ],
+            "response_time": "0.932821989059",
+            "http_response": {
+                "status": {
+                    "reason": "OK",
+                    "code": 200
+                },
+                "http_headers": {
+                    "x-cache-enabled": "True",
+                    "set-cookie": "wpSGCacheBypass=0; expires=Mon, 26-Jun-2017 09:55:01 GMT; path=/",
+                    "server": "nginx",
+                    "connection": "keep-alive",
+                    "host-header": "192fc2e7e50945beb8231a492d6a8024, 192fc2e7e50945beb8231a492d6a8024",
+                    "link": "<http://blog.ycombinator.com/wp-json/>; rel=\"https://api.w.org/\"",
+                    "date": "Mon, 26 Jun 2017 10:55:01 GMT",
+                    "content-type": "text/html; charset=UTF-8"
+                }
+            }
+        },
+        {
+            "target": "calendar.ycombinator.com",
+            "hostname": "ghs.googlehosted.com",
+            "alias": [
+                "calendar.ycombinator.com"
+            ],
+            "ipaddress": [
+                "172.217.26.211"
+            ],
+            "response_time": "0.236829042435",
+            "http_response": {
+                "status": {
+                    "reason": "Not Found",
+                    "code": 404
+                },
+                "http_headers": {
+                    "content-length": "1561",
+                    "x-xss-protection": "1; mode=block",
+                    "server": "ghs",
+                    "date": "Mon, 26 Jun 2017 10:57:05 GMT",
+                    "x-frame-options": "SAMEORIGIN",
+                    "content-type": "text/html; charset=UTF-8"
+                }
+            }
+        },
+        {
+            "target": "cdn.ycombinator.com",
+            "hostname": "cdn.ycombinator.com",
+            "alias": [],
+            "ipaddress": [
+                "54.230.190.206",
+                "54.230.190.249",
+                "54.230.190.29",
+                "54.230.190.234",
+                "54.230.190.194",
+                "54.230.190.172",
+                "54.230.190.152",
+                "54.230.190.115"
+            ],
+            "response_time": "0.727931976318",
+            "http_response": {
+                "status": {
+                    "reason": "OK",
+                    "code": 200
+                },
+                "http_headers": {
+                    "content-length": "3875",
+                    "via": "1.1 63a3d81c3945aa43f39cba276167f218.cloudfront.net (CloudFront)",
+                    "x-cache": "RefreshHit from cloudfront",
+                    "content-encoding": "gzip",
+                    "server": "AmazonS3",
+                    "last-modified": "Thu, 22 Jun 2017 21:30:38 GMT",
+                    "connection": "keep-alive",
+                    "etag": "\"f58e2876129c6bb8ad46c2f5635bb562\"",
+                    "x-amz-cf-id": "3zz2TqjNGu5AiA-scWNNfgU8_gbBLafyw1rJgbibhHTiZQKbIblffA==",
+                    "cache-control": "max-age=0, must-revalidate",
+                    "date": "Thu, 22 Jun 2017 21:56:10 GMT",
+                    "x-amz-meta-content-md5": "52b08b0641519fb1f3f86798ee4aa93d",
+                    "content-type": "text/html; charset=utf-8"
+                }
+            }
+        },
+        {
+            "target": "docs.ycombinator.com",
+            "hostname": "ghs.googlehosted.com",
+            "alias": [
+                "docs.ycombinator.com"
+            ],
+            "ipaddress": [
+                "172.217.26.211"
+            ],
+            "response_time": "0.246691942215",
+            "http_response": {
+                "status": {
+                    "reason": "Not Found",
+                    "code": 404
+                },
+                "http_headers": {
+                    "content-length": "1561",
+                    "x-xss-protection": "1; mode=block",
+                    "server": "ghs",
+                    "date": "Mon, 26 Jun 2017 10:57:31 GMT",
+                    "x-frame-options": "SAMEORIGIN",
+                    "content-type": "text/html; charset=UTF-8"
+                }
+            }
+        },
+        {
+            "target": "groups.ycombinator.com",
+            "hostname": "ghs.googlehosted.com",
+            "alias": [
+                "groups.ycombinator.com"
+            ],
+            "ipaddress": [
+                "172.217.26.211"
+            ],
+            "response_time": "0.234225988388",
+            "http_response": {
+                "status": {
+                    "reason": "Not Found",
+                    "code": 404
+                },
+                "http_headers": {
+                    "content-length": "1561",
+                    "x-xss-protection": "1; mode=block",
+                    "server": "ghs",
+                    "date": "Mon, 26 Jun 2017 10:57:38 GMT",
+                    "x-frame-options": "SAMEORIGIN",
+                    "content-type": "text/html; charset=UTF-8"
+                }
+            }
+        },
+        {
+            "target": "mail.ycombinator.com",
+            "hostname": "ghs.googlehosted.com",
+            "alias": [
+                "mail.ycombinator.com"
+            ],
+            "ipaddress": [
+                "172.217.26.211"
+            ],
+            "response_time": "0.241791009903",
+            "http_response": {
+                "status": {
+                    "reason": "Not Found",
+                    "code": 404
+                },
+                "http_headers": {
+                    "content-length": "1561",
+                    "x-xss-protection": "1; mode=block",
+                    "server": "ghs",
+                    "date": "Mon, 26 Jun 2017 10:57:46 GMT",
+                    "x-frame-options": "SAMEORIGIN",
+                    "content-type": "text/html; charset=UTF-8"
+                }
+            }
+        },
+        {
+            "target": "news.ycombinator.com",
+            "hostname": "news.ycombinator.com.cdn.cloudflare.net",
+            "alias": [
+                "news.ycombinator.com"
+            ],
+            "ipaddress": [
+                "104.20.43.44",
+                "104.20.44.44"
+            ],
+            "response_time": "0.814978122711",
+            "http_response": {
+                "status": {
+                    "reason": "Conflict",
+                    "code": 409
+                },
+                "http_headers": {
+                    "set-cookie": "__cfduid=d0d804d23132f38ea7a751ac6bae166d41498474673; expires=Tue, 26-Jun-18 10:57:53 GMT; path=/; domain=.cloudflare.net; HttpOnly",
+                    "expires": "Mon, 26 Jun 2017 10:57:59 GMT",
+                    "server": "cloudflare-nginx",
+                    "connection": "keep-alive",
+                    "cache-control": "max-age=6",
+                    "date": "Mon, 26 Jun 2017 10:57:53 GMT",
+                    "x-frame-options": "SAMEORIGIN",
+                    "content-type": "text/html; charset=UTF-8",
+                    "cf-ray": "374fa5f3029b2ef9-DEL"
+                }
+            }
+        },
+        {
+            "target": "old.ycombinator.com",
+            "hostname": "old.ycombinator.com",
+            "alias": [],
+            "ipaddress": [
+                "54.230.190.155",
+                "54.230.190.183",
+                "54.230.190.226",
+                "54.230.190.251",
+                "54.230.190.242",
+                "54.230.190.94",
+                "54.230.190.29",
+                "54.230.190.146"
+            ],
+            "response_time": "0.0916080474854",
+            "http_response": {
+                "status": {
+                    "reason": "OK",
+                    "code": 200
+                },
+                "http_headers": {
+                    "content-length": "11641",
+                    "via": "1.1 00f23608af6d5c7f0bd68c63cbf67233.cloudfront.net (CloudFront)",
+                    "x-cache": "Hit from cloudfront",
+                    "age": "47656",
+                    "server": "AmazonS3",
+                    "last-modified": "Tue, 01 Jul 2014 02:04:26 GMT",
+                    "connection": "keep-alive",
+                    "etag": "\"0c16bd621e37bc147904dc5ce3688d4b\"",
+                    "x-amz-cf-id": "pnMIxEhNhs0vuPyCsrXfQSgsmW-HCI_seJHwwHj53iKEBgSFiFDacQ==",
+                    "date": "Wed, 17 Aug 2016 06:06:28 GMT",
+                    "content-type": "text/html"
+                }
+            }
+        },
+        {
+            "target": "www.ycombinator.com",
+            "hostname": "www.ycombinator.com",
+            "alias": [],
+            "ipaddress": [
+                "54.230.190.249",
+                "54.230.190.234",
+                "54.230.190.206",
+                "54.230.190.194",
+                "54.230.190.152",
+                "54.230.190.29",
+                "54.230.190.115",
+                "54.230.190.172"
+            ],
+            "response_time": "3.59032607079",
+            "http_response": {
+                "status": {
+                    "reason": "OK",
+                    "code": 200
+                },
+                "http_headers": {
+                    "content-length": "3875",
+                    "via": "1.1 f06e07dccfc8e669cf9b4cfe75b40700.cloudfront.net (CloudFront)",
+                    "x-cache": "RefreshHit from cloudfront",
+                    "content-encoding": "gzip",
+                    "server": "AmazonS3",
+                    "last-modified": "Thu, 22 Jun 2017 21:30:38 GMT",
+                    "connection": "keep-alive",
+                    "etag": "\"f58e2876129c6bb8ad46c2f5635bb562\"",
+                    "x-amz-cf-id": "gMqSRD6OnfzjGm7P2DntUl6j3DDh_W1C89cQSdqWh5LNeMl_nlcsJg==",
+                    "cache-control": "max-age=0, must-revalidate",
+                    "date": "Thu, 22 Jun 2017 21:56:10 GMT",
+                    "x-amz-meta-content-md5": "52b08b0641519fb1f3f86798ee4aa93d",
+                    "content-type": "text/html; charset=utf-8"
+                }
+            }
+        }
+    ],
+    "info": {
+        "wordlist": {
+            "item_count": 1919,
+            "filename": "/Users/abhinashjain/proxyfuzz/proxy2/knock-knock4/knockpy/wordlist/wordlist.txt"
+        },
+        "time_start": "2017-06-26 16:26:50.906364",
+        "knockpy": {
+            "url": "https://github.com/guelfoweb/knock",
+            "query": [
+                "knock-knock4/knockpy/knockpy.py",
+                "-j",
+                "ycombinator.com"
+            ],
+            "version": "4.0"
+        },
+        "time_end": "2017-06-26 16:26:51.900307",
+        "sub_count": 13,
+        "ip_count": 27
+    }
+}
